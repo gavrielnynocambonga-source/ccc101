@@ -5,14 +5,14 @@ int main() {
     int gavriel, cambonga, sum;
 
     printf("Enter first number: ");
-    scanf("%d", &gavriel);22
+    scanf("%f", &gavriel);
 
     printf("Enter second number: ");
-    scanf("%d", &cambonga);
+    scanf("%f", &cambonga);
 
     sum = gavriel + cambonga;
 
-    printf("The sum is: %d", sum);
+    printf("The sum is: %f", sum);
 
     return 0;
 }
